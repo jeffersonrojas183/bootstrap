@@ -1,0 +1,119 @@
+/* configuración inicial */
+
+/* coloque aca el @font face para llamar la la fuente arimo } */
+@font-face {
+   font-family: fuente__negrita;
+   src: url(../fuente/Arimo-Bold.ttf);
+}
+
+@font-face {
+   font-family: fuente__regular;
+   src: url(../fuente/Arimo-Regular.ttf);
+}
+
+/* Puede utilizar dos colores adicionales aparte del negro blanco y gris 
+ */
+:root {
+   --blanco: #fff;
+   --negro: #000;
+   --gris: #6c757d;
+   --azul: #0d6efd;
+   --indigo: #6610f2;
+   --purple: #6f42c1;
+   --pink: #ee0979;
+   --red: #dc3545;
+   --orange: #ff6a00;
+   --yellow: #ffc107;
+   --green: #198754;
+   --teal: #20c997;
+   --cyan: #0dcaf0;
+
+   /* colores que se usan  */
+   --blanco: #fff;
+   --negro: #000;
+   --gris: #6c757d;
+   --red: #dc3545;
+   --green: #198754;
+
+
+}
+
+body {
+   font-family: fuente__negrita;
+   ;
+}
+
+/* ******** COLOQUE DEBAJO TODOS LOS ESTILOS PERSONALES ******* */
+
+.contenido__hero {
+   background-image: url(../imagenes/hero.jpg);
+   width: 100%;
+   height: 60vh;
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.titulo__hero {
+   font-size: 85px;
+   text-align: center;
+}
+
+.parrafo__hero {
+   font-size: 35px;
+}
+
+
+
+.contenidogrid__imagen {
+   width: 100%;
+   max-width: 300px;
+   height: auto;
+}
+
+
+/* rojo */
+.text__bgcR {
+   background-color: var(--red);
+}
+
+.text__colorR {
+   color: var(--red);
+}
+
+/* verde */
+
+.text__bgcV {
+   background-color: var(--green);
+}
+
+.text__colorV {
+   color: var(--green);
+}
+
+.icono__tamano {
+   width: 15px;
+
+}
+
+
+
+.form {
+   background-color: var(--gris);
+}
+
+.caja2{
+   padding-left: 40px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+footer {
+  margin-top: auto;
+}
